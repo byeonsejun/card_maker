@@ -3,7 +3,7 @@ import styles from './card_edit_form.module.css';
 import Button from '../button/button';
 import ImageFileInput from '../image_file_input/image_file_input'
 
-const Card_edit_form = ({ card }) => {
+const CardEditForm = ({ card }) => {
     const {name, company, title, email, message, theme, fileName, fileURL} = card;
     const onSubmit = () => {
 
@@ -29,4 +29,4 @@ const Card_edit_form = ({ card }) => {
     )
 }
 
-export default Card_edit_form;
+export default CardEditForm;
