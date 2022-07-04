@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "https://github.com/byeonsejun/card_maker/static/css/main.6a03f705.css",
-    "main.js": "https://github.com/byeonsejun/card_maker/static/js/main.f8e8002e.js",
-    "index.html": "https://github.com/byeonsejun/card_maker/index.html",
-    "main.6a03f705.css.map": "https://github.com/byeonsejun/card_maker/static/css/main.6a03f705.css.map",
-    "main.f8e8002e.js.map": "https://github.com/byeonsejun/card_maker/static/js/main.f8e8002e.js.map"
+    "main.css": "/card_maker/static/css/main.5f0cc75f.css",
+    "main.js": "/card_maker/static/js/main.58d88f0b.js",
+    "index.html": "/card_maker/index.html",
+    "main.5f0cc75f.css.map": "/card_maker/static/css/main.5f0cc75f.css.map",
+    "main.58d88f0b.js.map": "/card_maker/static/js/main.58d88f0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a03f705.css",
-    "static/js/main.f8e8002e.js"
+    "static/css/main.5f0cc75f.css",
+    "static/js/main.58d88f0b.js"
   ]
 }
