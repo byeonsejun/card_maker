@@ -6,11 +6,11 @@ import Maker from './components/maker/maker';
 function App({ FileInput, authService, cardRepository }) {
   return (
     <div className={styles.app}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL} >
       <Routes>
         <Route path="/" element={<Login authService={authService} />} />
         <Route path="/maker" element={
-          <Maker 
+          <Maker
             FileInput={FileInput} 
             authService={authService} 
             cardRepository={cardRepository}
