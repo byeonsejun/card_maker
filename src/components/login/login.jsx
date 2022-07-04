@@ -1,4 +1,4 @@
-import { useNavigate, useLocation} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import styles from './login.module.css';

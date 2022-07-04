@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import styles from './maker.module.css';
 import Editor from '../editor/editor';
 import Preview from '../preview/preview';
+import { useCallback } from 'react';
 
 const Maker = ({ FileInput, authService, cardRepository }) => {
     
@@ -13,9 +14,9 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
     const [userId, setUserId] = useState(navigateState && navigateState.id);
 
     const navigate = useNavigate();
-    const onLogout = () => {
+    const onLogout = useCallback(() => {
         authService.logout();
-    };
+    }, [authService]);
 
     useEffect(()=>{
         if (!userId) {
